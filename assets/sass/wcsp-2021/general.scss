@@ -6,4 +6,8 @@
 
 #primary {
     @include clearfix;
+    
+    @include media-breakpoint-up(lg) {
+        padding-top: 72px;
+    }
 }
