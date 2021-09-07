@@ -5,6 +5,7 @@
     @include one-side-container-margin( padding, 0px );
     padding-top: 15px!important;
     padding-bottom: 15px!important;
+    display: flex;
     justify-content: space-between;
     position: absolute;
     width: 100%;
@@ -97,9 +98,9 @@
 
     .site-title {
         a {
-            background: url("https://saopaulo.wordcamp.org/2021/files/2021/09/Logo-2021.png") no-repeat left center/contain;
-            width: 200px;
-            height: 208px;
+            background: url("https://saopaulo.wordcamp.org/2021/files/2021/09/Logo-2021-vertical.png") no-repeat left center/contain;
+            width: 110px;
+            height: 40px;
             max-width: 50vw;
             max-height: 5vh;
             margin: 10px 0;
