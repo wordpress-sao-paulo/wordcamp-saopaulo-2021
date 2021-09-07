@@ -14,6 +14,11 @@
     letter-spacing: .03em;
     background-color: $wcsp-blue;
 
+    .main-navigation {
+        width: auto;
+        float: none;
+    }
+
     @include media-breakpoint-down(md) {
         padding-bottom: 0 !important;
         position: relative;
