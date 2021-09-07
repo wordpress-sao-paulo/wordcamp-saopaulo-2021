@@ -1,6 +1,31 @@
 
 
+/**
+ * Cabeçalho
+ * 
+ */
+body:not(.blog) {
+    .entry-header:first-of-type {
+        background: #0073AA;
+        margin-bottom: 5vh;
+        padding: 60px 60px 60px 0;
 
+        @include media-breakpoint-up(lg) {
+            padding: 180px 0 60px 0;
+        }
+
+        > * {
+            @include make-container();
+            @include make-container-max-widths();
+            color: $white;
+        }
+    }
+}
+
+/**
+ * Bloco guntenberg comum
+ * 
+ */
 .entry-content {
     > *:not(.full-width) {
         @include make-container();
