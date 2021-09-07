@@ -12,7 +12,7 @@
     z-index: $zindex-header;
     font-size: $font-size-base;
     letter-spacing: .03em;
-    background-color: $wcsp-blue;
+    background-color: $wcsp-blue !important;
 
     .main-navigation {
         width: auto;
