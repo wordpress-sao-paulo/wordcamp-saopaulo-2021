@@ -3,7 +3,8 @@
     @extend .navbar-expand-lg;
     @extend .navbar-dark;
     @include one-side-container-margin( padding, 0px );
-    //padding: 15px 0 !important;
+    padding-top: 15px!important;
+    padding-bottom: 15px!important;
     justify-content: space-between;
     position: absolute;
     width: 100%;
