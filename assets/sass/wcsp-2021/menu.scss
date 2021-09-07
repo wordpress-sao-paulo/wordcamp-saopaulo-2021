@@ -3,14 +3,14 @@
     @extend .navbar-expand-lg;
     @extend .navbar-dark;
     @include one-side-container-margin( padding, 0px );
-    padding-top: 0 !important;
-    padding-bottom: 15px !important;
+    padding: 15px 0 !important;
     justify-content: space-between;
     position: absolute;
     width: 100%;
     z-index: $zindex-header;
     font-size: $font-size-sm;
     letter-spacing: .03em;
+    background-color: $wcsp-blue;
 
     @include media-breakpoint-down(md) {
         padding-bottom: 0 !important;
