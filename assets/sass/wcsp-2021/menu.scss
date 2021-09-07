@@ -97,6 +97,8 @@
     }
 
     .site-title {
+        margin: 0;
+
         a {
             background: url("https://saopaulo.wordcamp.org/2021/files/2021/09/Logo-2021-vertical.png") no-repeat left center/contain;
             width: 110px;
@@ -107,6 +109,7 @@
             color: rgba($white, 0);
             font-size: 8px;
             display: block;
+            margin: 0;
         }
     }
 
