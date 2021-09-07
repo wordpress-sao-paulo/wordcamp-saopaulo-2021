@@ -32,6 +32,7 @@ body:not(.blog) {
     > *:not(.full-width) {
         @include make-container();
         @include make-container-max-widths();
+        margin: 0 auto;
     }
 
 }
