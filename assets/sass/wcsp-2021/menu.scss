@@ -5,6 +5,7 @@
     @include one-side-container-margin( padding, 0px );
     padding-top: 15px!important;
     padding-bottom: 15px!important;
+    background-color: $wcsp-blue !important;
     display: flex;
     justify-content: space-between;
     position: absolute;
@@ -12,7 +13,6 @@
     z-index: $zindex-header;
     font-size: $font-size-base;
     letter-spacing: .03em;
-    background-color: $wcsp-blue !important;
 
     .main-navigation {
         width: auto;
