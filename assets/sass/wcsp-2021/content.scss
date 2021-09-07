@@ -1,0 +1,11 @@
+
+
+
+.entry-content {
+    > *:not(.full-width) {
+        @include make-container();
+        @include make-container-max-widths();
+    }
+
+}
+
