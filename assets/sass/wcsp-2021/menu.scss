@@ -133,10 +133,11 @@
     }
 
     > .menu-item {
-        
+        @extend .nav-item;
 
         > a {
-            
+            @extend .nav-link;
+            font-size: 1rem;
         }
 
         &:not(.btn):not(.btn-sm) {
