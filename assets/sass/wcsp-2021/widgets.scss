@@ -1,11 +1,8 @@
 
-.widget-area {
-    padding: 0 1rem;
-}
-
 aside.widget {
     max-width: 900px;
     margin: 0 auto;
+    padding: 0 1rem;
 
     div[class^="wp-block-"]:not(:empty) {
         padding: 1rem;
