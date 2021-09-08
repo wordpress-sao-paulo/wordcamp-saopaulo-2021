@@ -34,7 +34,6 @@ body:not(.blog) {
  */
 .entry-content {
     margin: 0 auto;
-    max-width: 900px;
 
     > *:not(.full-width) {
         @include make-container();
