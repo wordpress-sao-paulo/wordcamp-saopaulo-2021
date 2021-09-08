@@ -6,19 +6,7 @@
  */
 body:not(.blog) {
     .entry-header:first-of-type {
-        background: $wcsp-blue;
-        margin-bottom: 5vh;
-        padding: 60px 60px 60px 0;
-        background-repeat: no-repeat;
-        background-image: url(https://saopaulo.wordcamp.org/2021/files/2021/09/triangle-left.png), url(https://saopaulo.wordcamp.org/2021/files/2021/09/triangle-right.png), url(https://saopaulo.wordcamp.org/2021/files/2021/09/sp-wired.png);
-        background-position: left bottom -15vh, right top -15vh, center center;
-        background-size: 30vw, 30vw, 70vw;
-
-        @include media-breakpoint-up(lg) {
-            padding: 180px 0 60px 0;
-            background-position: left bottom -15vh, right top -10vh, center center;
-            background-size: 12vw, 12vw, 30vw;
-        }
+        @include header-bg();
 
         > * {
             @include make-container();
