@@ -8,4 +8,9 @@ aside.widget {
     max-width: 900px;
     margin: 0 auto 1.5em;
     box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.15), 0px 5px 30px rgba(0, 0, 0, 0.1);
+
+    ol, ul {
+        margin: 0;
+        list-style: none;
+    }
 }
