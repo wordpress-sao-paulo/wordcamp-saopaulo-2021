@@ -37,6 +37,11 @@ body.home .entry-header {
         z-index: 10;
     }
 
+    .wp-block-column {
+        position: relative;
+        z-index: 10;
+    }
+
     h2 {
         @extend .display-title;
         margin-bottom: 15px;
