@@ -29,7 +29,7 @@ body:not(.blog) {
     }
     
     > .full-width {
-        @include one-side-container-margin( padding, 0px );
+        @include full-with-column-lateral-padding();
         padding-top: 1rem;
         padding-bottom: 1rem;
 
