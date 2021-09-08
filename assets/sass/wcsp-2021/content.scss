@@ -27,6 +27,10 @@ body:not(.blog) {
         @include make-container();
         @include make-container-max-widths();
     }
+    
+    > *.full-width {
+        @include make-container-max-widths();
+    }
 
     iframe {
         margin: 0 auto;
