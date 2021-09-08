@@ -8,6 +8,29 @@ a {
     color: $wcsp-red;
 }
 
+/**
+ * Remover espaçamento de últimas tags
+ * 
+ */
+p:last-child, 
+ul:last-child, 
+ol:last-child, 
+li:last-child
+h1:last-child,
+h2:last-child,
+h3:last-child,
+h4:last-child,
+h5:last-child,
+h6:last-child
+{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/**
+ * BGs coloridos, uso geral
+ * 
+ */
 .bg-blue      {background-color: $wcsp-blue;}
 .bg-red       {background-color: $wcsp-red;}
 .bg-yellow    {background-color: $wcsp-yellow;}
@@ -21,6 +44,10 @@ a {
     }
 }
 
+/**
+ * Rodapé
+ * 
+ */
 #colophon {
 
     .site-info {
