@@ -27,15 +27,6 @@ body:not(.blog) {
         @include make-container();
         @include make-container-max-widths();
     }
-    
-    > .full-width {
-
-        > .wp-block-columns,
-        > .wp-block-group__inner-container {
-            @include make-container();
-            @include make-container-max-widths();
-        }
-    }
 
     iframe {
         margin: 0 auto;
