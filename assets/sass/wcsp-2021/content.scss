@@ -30,8 +30,8 @@ body:not(.blog) {
     
     > .full-width {
 
-        &.wp-block-columns,
-        &.wp-block-group__inner-container {
+        > .wp-block-columns,
+        > .wp-block-group__inner-container {
             @include make-container();
             @include make-container-max-widths();
         }
