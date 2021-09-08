@@ -30,7 +30,7 @@ body:not(.blog) {
     
     > .full-width {
         padding: 1rem 15px;
-        @include full-with-column-lateral-padding(0);
+        @include full-with-column-lateral-padding(0px);
 
         //> .wp-block-group__inner-container {
         //    @include make-container();
