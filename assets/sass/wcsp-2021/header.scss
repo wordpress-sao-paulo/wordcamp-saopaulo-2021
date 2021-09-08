@@ -4,7 +4,8 @@
  * Cabeçalho
  * 
  */
- body:not(.blog) {
+body:not(.blog) {
+
     .entry-header:first-of-type {
         @include header-bg();
 

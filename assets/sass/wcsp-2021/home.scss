@@ -1,6 +1,13 @@
 
-body.home .entry-header {
-    display: none;
+body.home {
+
+    .entry-header:first-of-type {
+        margin-bottom: 0;
+    }
+    
+    .entry-header {
+        display: none;
+    }
 }
 
 .section-call-to-action {
