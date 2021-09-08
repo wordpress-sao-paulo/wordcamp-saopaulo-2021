@@ -29,11 +29,14 @@ body:not(.blog) {
     }
     
     > .full-width {
+        @include one-side-container-margin( padding, 0px );
+        padding-top: 15vmin !important;
+        padding-bottom: 15vmin !important;
 
-        > .wp-block-group__inner-container {
-            @include make-container();
-            @include make-container-max-widths();
-        }
+        //> .wp-block-group__inner-container {
+        //    @include make-container();
+        //    @include make-container-max-widths();
+        //}
     }
 
     iframe {
