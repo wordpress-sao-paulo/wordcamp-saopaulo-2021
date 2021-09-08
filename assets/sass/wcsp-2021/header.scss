@@ -29,6 +29,8 @@ body.blog {
             content: 'Blog';
             display: block;
             width: 100%;
+            @extend h1;
+            color: #fff;
             @include header-bg();
             @include full-with-column-lateral-padding(0px);
         }
