@@ -8,6 +8,11 @@ a {
     color: $wcsp-red;
 }
 
+.bg-blue      {background-color: $wcsp-blue;}
+.bg-red       {background-color: $wcsp-red;}
+.bg-yellow    {background-color: $wcsp-yellow;}
+.bg-purple    {background-color: $wcsp-purple;}
+
 #primary {
     @include clearfix;
     
