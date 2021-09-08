@@ -29,7 +29,7 @@ body:not(.blog) {
     }
     
     > .full-width {
-        padding: 1rem;
+        padding: 1rem 15px;
         @include full-with-column-lateral-padding();
 
         //> .wp-block-group__inner-container {
