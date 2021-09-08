@@ -29,9 +29,8 @@ body:not(.blog) {
     }
     
     > .full-width {
+        padding: 1rem;
         @include full-with-column-lateral-padding();
-        padding-top: 1rem;
-        padding-bottom: 1rem;
 
         //> .wp-block-group__inner-container {
         //    @include make-container();
