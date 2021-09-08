@@ -1,4 +1,36 @@
 
+
+/**
+ * Cabeçalho
+ * 
+ */
+ body:not(.blog) {
+    .entry-header:first-of-type {
+        @include header-bg();
+
+        > * {
+            @include make-container();
+            @include make-container-max-widths();
+            color: $white;
+        }
+    }
+}
+
 .header-hero {
     @include header-bg();
+}
+
+
+body.blog {
+
+    #content {
+
+        &:before {
+            content: 'Blog';
+            display: block;
+            width: 100%;
+            @include header-bg();
+            @include full-with-column-lateral-padding(0px);
+        }
+    }
 }

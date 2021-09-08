@@ -1,22 +1,6 @@
 
 
 /**
- * Cabeçalho
- * 
- */
-body:not(.blog) {
-    .entry-header:first-of-type {
-        @include header-bg();
-
-        > * {
-            @include make-container();
-            @include make-container-max-widths();
-            color: $white;
-        }
-    }
-}
-
-/**
  * Remover espaçamento padrão
  * 
  */
