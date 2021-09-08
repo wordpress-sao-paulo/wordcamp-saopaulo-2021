@@ -30,8 +30,8 @@ body:not(.blog) {
     
     > .full-width {
         @include one-side-container-margin( padding, 0px );
-        padding-top: 15vmin !important;
-        padding-bottom: 15vmin !important;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
 
         //> .wp-block-group__inner-container {
         //    @include make-container();
