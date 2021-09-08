@@ -20,8 +20,17 @@ a {
 
     .site-info {
         background-color: $wcsp-purple;
-        color: $wcsp-blue;
+        color: $wcsp-yellow;
         text-align: center;
         padding: 0.5rem;
+
+        a {
+            color: $wcsp-yellow;
+            text-decoration: underline;
+
+            &:hover {
+                color: #fff;
+            }
+        }
     }
 }
