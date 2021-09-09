@@ -6,6 +6,12 @@
         //@extend .btn;
         //@extend .btn-primary;
         //min-width: 200px;
+        padding: 0.5rem 1.5rem;
+        background: $wcsp-blue;
+        box-shadow: none;
+        border: 0;
+        text-shadow: none;
+        color: #fff;
     }
 
     table {
