@@ -57,13 +57,15 @@
             }
 
             .tix-column-price:before {
-                content: 'Preço';
-                margin-right: 10px;
+                content: 'Preço:';
+                width: 7rem;
+                display: inline-block;
             }
 
             .tix-column-quantity:before {
-                content: 'Quantidade';
-                margin-right: 10px;
+                content: 'Quantidade:';
+                width: 7rem;
+                display: inline-block;
             }
         }
 
