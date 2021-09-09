@@ -45,6 +45,28 @@
     }
 
     @include media-breakpoint-down(md) {
+
+        table {
+
+            thead {
+                display: none;
+            }
+    
+            th, td {
+                display: block;
+            }
+
+            .tix-column-price:before {
+                content: 'Preço';
+                margin-right: 10px;
+            }
+
+            .tix-column-quantity:before {
+                content: 'Quantidade';
+                margin-right: 10px;
+            }
+        }
+
         /* Stack columns on mobile */
         .tix-attendee-form tr td.tix-left,
         .tix-attendee-form tr td.tix-right {
