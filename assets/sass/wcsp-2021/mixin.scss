@@ -20,7 +20,8 @@
 }
 
 @mixin header-bg() {
-    background: $wcsp-blue;
+    //background: $wcsp-blue;
+    background: #000;
     margin-bottom: 5vh;
     padding: 60px 60px 60px 0;
     background-repeat: no-repeat;
