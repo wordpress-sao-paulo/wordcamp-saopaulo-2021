@@ -111,7 +111,9 @@ body.blog article {
     }
 }
 
+// patrocinador individual
 .wcorg-sponsor {
+    position: relative;
     margin-bottom: 1rem;
 
     &:last-child {
