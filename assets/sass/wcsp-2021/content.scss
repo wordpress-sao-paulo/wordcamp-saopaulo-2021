@@ -86,4 +86,21 @@ body.blog article {
     }
 }
 
+.wcb_sponsor-template-default {
+
+    #content {
+
+        .attachment-post-thumbnail {
+            display: block;
+            margin: 2rem auto;
+            height: auto;
+            max-width: 400px;
+            
+            @include media-breakpoint-down(md) {
+                max-width: calc(100% - 2rem);
+            }
+        }
+    }
+}
+
 
