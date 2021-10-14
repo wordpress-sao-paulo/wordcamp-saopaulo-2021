@@ -106,7 +106,6 @@ body.blog article {
             
             @include media-breakpoint-down(md) {
                 max-width: calc(100% - 2rem);
-                margin: 2rem;
             }
         }
     }
