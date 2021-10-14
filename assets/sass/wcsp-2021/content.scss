@@ -121,3 +121,18 @@ body.blog article {
     }
 }
 
+// listagem patrocinador
+.wcorg-sponsor-description {
+
+    img {
+        display: block;
+        margin: 2rem auto;
+        height: auto;
+        max-width: 400px;
+        
+        @include media-breakpoint-down(md) {
+            max-width: calc(100% - 2rem);
+        }
+    }
+}
+
