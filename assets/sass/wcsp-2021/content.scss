@@ -68,5 +68,22 @@ body.blog article {
     }
 }
 
+/**
+ * Patrocinadores
+ * 
+ */
+.wordcamp-post-list__post {
+
+    .wordcamp-sponsor {
+        height: 100%;
+
+        .wordcamp-image__featured-image-container {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
 
 
