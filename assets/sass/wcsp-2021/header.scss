@@ -16,6 +16,12 @@ body:not(.blog) {
         }
     }
 }
+body.wcb_sponsor-template-default {
+
+    .entry-header:first-of-type {
+        display: none;
+    }
+}
 
 .header-hero {
     @include header-bg();
