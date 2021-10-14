@@ -10,7 +10,7 @@
 article.hentry {
     margin-bottom: 0;
 
-    .entry-content > div:last-child {
+    .entry-content > *:last-child {
         margin-bottom: 0 !important;
         padding-bottom: 1rem;
     }
