@@ -7,6 +7,13 @@
 .wp-block-columns {
     margin-bottom: 0;
 }
+article.hentry {
+    margin-bottom: 0;
+
+    > div:last-child {
+        margin-bottom: 0;
+    }
+}
 
 /**
  * Bloco guntenberg comum
