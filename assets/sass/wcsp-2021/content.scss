@@ -10,7 +10,7 @@
 article.hentry {
     margin-bottom: 0;
 
-    > div:last-child {
+    .entry-content > div:last-child {
         margin-bottom: 0;
     }
 }
