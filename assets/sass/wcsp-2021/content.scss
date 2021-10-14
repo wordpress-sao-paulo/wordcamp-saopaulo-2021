@@ -12,6 +12,7 @@ article.hentry {
 
     .entry-content > div:last-child {
         margin-bottom: 0 !important;
+        padding-bottom: 1rem;
     }
 }
 
@@ -110,4 +111,11 @@ body.blog article {
     }
 }
 
+.wcorg-sponsor {
+    margin-bottom: 1rem;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
 
