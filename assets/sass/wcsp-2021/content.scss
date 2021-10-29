@@ -96,13 +96,13 @@ body.blog article {
             }
         }
     }
+}
 
-    .sponsor-prata img {
-        max-width: 280px;
-    }
-    .sponsor-bronze img {
-        max-width: 200px;
-    }
+.sponsor-prata img {
+    max-width: 280px !important;
+}
+.sponsor-bronze img {
+    max-width: 200px !important;
 }
 
 .wcb_sponsor-template-default {
