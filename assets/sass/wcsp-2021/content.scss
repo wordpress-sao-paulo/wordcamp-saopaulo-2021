@@ -90,7 +90,18 @@ body.blog article {
             display: flex;
             justify-content: center;
             align-items: center;
+
+            img.wordcamp-image__featured-image {
+                height: auto;
+            }
         }
+    }
+
+    .sponsor-prata img {
+        max-width: 280px;
+    }
+    .sponsor-bronze img {
+        max-width: 200px;
     }
 }
 
