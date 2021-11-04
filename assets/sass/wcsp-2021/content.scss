@@ -26,6 +26,8 @@ article.hentry {
     > *:not(.full-width) {
         @include make-container();
         @include make-container-max-widths();
+        margin-right: auto !important;
+        margin-left: auto !important;
     }
     
     > .full-width {
