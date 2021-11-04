@@ -9,6 +9,24 @@ a {
 }
 
 /**
+ * Headings
+ * 
+ */
+@include media-breakpoint-up(sm) {
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+}
+
+/**
  * Remover espaçamento de últimas tags
  * 
  */
