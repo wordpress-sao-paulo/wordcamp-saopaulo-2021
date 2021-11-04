@@ -80,6 +80,19 @@ body.blog article {
 }
 
 /**
+ * Elementos auxiliares
+ * 
+ */
+.hentry .entry-meta,
+.post-navigation,
+#comments {
+    margin-right: auto !important;
+    margin-left: auto !important;
+    @include make-container();
+    @include make-container-max-widths();
+}
+
+/**
  * Organizadores
  * 
  */
