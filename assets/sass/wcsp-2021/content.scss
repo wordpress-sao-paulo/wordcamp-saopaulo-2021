@@ -48,6 +48,18 @@ article.hentry {
     ol, ul {
         padding-left: 2.2rem !important;
     }
+
+    /**
+     * blocos wordcamp
+     * 
+     */
+    .session-categories-links {
+        display: block;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        @include make-container();
+        @include make-container-max-widths();
+    }
 }
 
 /**
