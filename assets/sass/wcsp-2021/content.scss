@@ -84,12 +84,22 @@ body.blog article {
  * 
  */
 .hentry .entry-meta,
-.post-navigation,
+.site-navigation,
 #comments {
     margin-right: auto !important;
     margin-left: auto !important;
     @include make-container();
     @include make-container-max-widths();
+}
+
+#content .site-navigation {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.comments-title {
+    font-size: 2rem;
+    font-weight: 400;
 }
 
 /**
