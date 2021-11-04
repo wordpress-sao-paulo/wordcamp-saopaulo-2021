@@ -12,7 +12,7 @@ a {
  * Headings
  * 
  */
-@include media-breakpoint-up(sm) {
+@include media-breakpoint-down(sm) {
     h1 {
         font-size: 1.8rem;
     }
