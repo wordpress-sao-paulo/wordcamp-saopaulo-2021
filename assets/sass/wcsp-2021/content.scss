@@ -140,6 +140,11 @@ body.blog article {
     }
 }
 
+.sponsors-title {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
 .sponsor-ouro img {
     max-width: 280px !important;
 }
@@ -149,11 +154,63 @@ body.blog article {
 .sponsor-bronze img {
     max-width: 180px !important;
 }
+.sponsor-ouro img {
+    max-width: 280px !important;
+}
+.sponsor-bronze img {
+    max-width: 340px !important;
+}
+.slug-kangaroo-host div a img {
+    max-width: 300px !important;
+}
+
+.wcorg-sponsor-description {
+    margin-bottom: 90px;
+}
 
 .sponsor-tier {
     border-bottom: 1px solid #ccc;
     margin-bottom: 1rem !important;
     padding-bottom: 0.5rem !important;
+}
+
+.wcorg-sponsor h3 a {
+    display:none;
+}
+
+#footer-widget-2 aside.widget {
+    max-width: 1200px !important;
+}
+
+.wcorg-sponsor-level-ouro h2 {
+    font-size: 70px;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 90px;
+    margin-top: 90px;
+    color: #ffbf00;
+}
+
+.wcorg-sponsor-level-prata h2 {
+    font-size: 70px;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 90px;
+    margin-top: 90px;
+    color: #9a9a9a;
+}
+
+.wcorg-sponsor-level-bronze h2 {
+    font-size: 70px;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 90px;
+    margin-top: 90px;
+    color: #cd7f32;
+}
+
+.wordcamp-sponsors__post {
+	padding-bottom: 50px !important;
 }
 
 .wcb_sponsor-template-default {
