@@ -146,22 +146,16 @@ body.blog article {
 }
 
 .sponsor-ouro img {
-    max-width: 280px !important;
+    width: clamp(200px, 280px, 100%);
 }
 .sponsor-prata img {
-    max-width: 220px !important;
-}
-.sponsor-bronze img {
-    max-width: 180px !important;
-}
-.sponsor-ouro img {
-    max-width: 280px !important;
-}
-.sponsor-bronze img {
-    max-width: 340px !important;
+    width: clamp(150px, 230px, 100%);
 }
 .slug-kangaroo-host div a img {
-    max-width: 300px !important;
+    width: clamp(200px, 300px, 100%);
+}
+.sponsor-bronze img {
+    width: clamp(100px, 200px, 100%);
 }
 
 .wcorg-sponsor-description {
