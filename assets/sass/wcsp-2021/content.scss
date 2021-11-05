@@ -126,9 +126,10 @@ body.blog article {
 
     .wordcamp-sponsor {
         height: 100%;
+        display: flex;
+        align-items: center;
 
         .wordcamp-image__featured-image-container {
-            height: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
