@@ -157,6 +157,9 @@ body.blog article {
 .slug-kangaroo-host div a img {
     width: clamp(200px, 300px, 100%);
 }
+.slug-estudio-haste div a img {
+    max-height: 6rem;
+}
 .sponsor-bronze img {
     width: clamp(100px, 200px, 100%);
 }
